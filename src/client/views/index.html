@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Analysis</title>
+</head>
+
+<body>
+
+    <header>
+        <header>
+            <h1>
+                Article Analysis
+            </h1>
+        </header>
+
+    </header>
+
+    <main>
+        <section>
+            <form class="" onsubmit="return Client.handleSubmit(event)">
+                <input id="url" type="text" name="input" value="" placeholder="URL">
+                <input id="submit" type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)"
+                    onsubmit="return handleSubmit(event)">
+            </form>
+            <section>
+
+                <section>
+                    <div class="results-wrap">
+                        <h2>Results:</h2>
+                        <div id="results">
+
+                        </div>
+                    </div>
+                </section>
+
+    </main>
+
+    <footer>
+        <p>
+            Developed by
+            <a href="https://www.linkedin.com/in/mariem-ehab-1431301b3" target="_blank">
+                Mary.E
+            </a>
+            with
+            <a href="https://www.meaningcloud.com/" target="_blank">
+                Meaning Cloud
+            </a>
+            API
+            For
+            <a href="https://www.udacity.com/" target="_blank">
+                Udacity
+            </a>
+            Nanodegree Certificate
+        </p>
+    </footer>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js');
+            });
+        }
+    </script>
+</body>
+
+</html>

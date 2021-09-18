@@ -1,0 +1,31 @@
+form {
+  border: 1px solid #545454;
+  border-radius: 3px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  input {
+    padding: 0.5rem 1rem;
+    margin: 10px 0;
+    border-radius: 0.25rem;
+    border: 1px solid #545454;
+    background: none;
+
+    &#submit {
+      background-color: #ff8a5c;
+      border: none;
+      color: hsl(0, 0%, 95%);
+      font-family: inherit;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.2rem;
+      cursor: pointer;
+      transition: all ease-in-out 0.2s;
+
+      &:active {
+        transform: scale(0.95);
+      }
+    }
+  }
+}

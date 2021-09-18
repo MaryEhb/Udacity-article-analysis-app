@@ -1,0 +1,21 @@
+.results-wrap {
+  background-color: rgb(67, 61, 158);
+  color: #e7e7e7;
+  padding: 2rem;
+  border-radius: 0.5rem;
+
+  span,
+  h2 {
+    color: #ff8a5c;
+    text-transform: capitalize;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+
+  #results {
+    margin-top: 0.5rem;
+  }
+}
