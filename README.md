@@ -18,8 +18,10 @@
 
 ## How To Run The Application:
 
-First browse to the folder in the code editor.
-Then install all the dependencies needed by running in terminal: `npm install`
+First Add .env file at root containing your api key `API_KEY`
+
+Then browse to the folder in the code editor.
+and install all the dependencies needed by running in terminal: `npm install`
 
 ### Development Mode:
 
